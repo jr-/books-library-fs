@@ -1,0 +1,21 @@
+{
+  "name": "books-library",
+  "version": "1.0.0",
+  "description": "A backend library to fetch books informations",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=dev nodemon ./server.js",
+    "prod": "NODE_ENV=prod node ./server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-status": "^1.4.0",
+    "nodemon": "^1.19.4",
+    "pg-promise": "^9.3.3"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "books-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd b-books-library && NODE_ENV=dev nodemon ./server.js\" \"cd f-books-library && npm start\"",
+    "prod": "concurrently \"cd b-books-library && NODE_ENV=prod node ./server.js\" \"cd f-books-library && npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.0.0"
+  }
+}
